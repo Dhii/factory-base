@@ -146,6 +146,21 @@ class SubjectConfigAwareTraitTest extends TestCase
         $this->assertSame($nConfig, $reflect->_getSubjectConfig());
     }
 
+    public function testGetSetSubjectConfigNull()
+    {
+        $subject = $this->createInstance();
+        $reflect = $this->reflect($subject);
+
+        $config = null;
+
+        $subject->expects($this->never())
+                ->method('_normalizeContainer');
+
+        $reflect->_setSubjectConfig($config);
+
+        $this->assertNull($reflect->_getSubjectConfig());
+    }
+
     public function testGetSetSubjectConfigNormalizationFail()
     {
         $subject = $this->createInstance();

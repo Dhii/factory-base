@@ -46,7 +46,9 @@ trait SubjectConfigAwareTrait
      */
     protected function _setSubjectConfig($subjectConfig)
     {
-        $this->subjectConfig = $this->_normalizeContainer($subjectConfig);
+        if ($subjectConfig === null || $subjectConfig = $this->_normalizeContainer($subjectConfig)) {
+            $this->subjectConfig = $subjectConfig;
+        }
     }
 
     /**
