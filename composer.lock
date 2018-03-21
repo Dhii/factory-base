@@ -509,12 +509,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/invocable-base.git",
-                "reference": "5be4d9328516a3db726798823bfcb39c659f5931"
+                "reference": "6c52759f9af526c8390313bad6b3e2470828a617"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/invocable-base/zipball/5be4d9328516a3db726798823bfcb39c659f5931",
-                "reference": "5be4d9328516a3db726798823bfcb39c659f5931",
+                "url": "https://api.github.com/repos/Dhii/invocable-base/zipball/6c52759f9af526c8390313bad6b3e2470828a617",
+                "reference": "6c52759f9af526c8390313bad6b3e2470828a617",
                 "shasum": ""
             },
             "require": {
@@ -560,7 +560,7 @@
                 "source": "https://github.com/Dhii/invocable-base/tree/task/initial-classes",
                 "issues": "https://github.com/Dhii/invocable-base/issues"
             },
-            "time": "2018-03-21T12:19:27+00:00"
+            "time": "2018-03-21T14:12:30+00:00"
         },
         {
             "name": "dhii/invocable-interface",
