@@ -19,7 +19,7 @@ trait SubjectConfigAwareTrait
      *
      * @since [*next-version*]
      *
-     * @var array|ArrayAccess|stdClass|ContainerInterface
+     * @var array|ArrayAccess|stdClass|ContainerInterface|null
      */
     protected $subjectConfig;
 
@@ -28,7 +28,7 @@ trait SubjectConfigAwareTrait
      *
      * @since [*next-version*]
      *
-     * @return array|ArrayAccess|ContainerInterface|stdClass The subject factory configuration, if any.
+     * @return array|ArrayAccess|ContainerInterface|stdClass|null The subject factory configuration, if any.
      */
     protected function _getSubjectConfig()
     {
@@ -40,7 +40,7 @@ trait SubjectConfigAwareTrait
      *
      * @since [*next-version*]
      *
-     * @param array|ArrayAccess|ContainerInterface|stdClass $subjectConfig The subject factory configuration, if any.
+     * @param array|ArrayAccess|ContainerInterface|stdClass|null $subjectConfig The subject factory config, if any.
      *
      * @throws InvalidArgumentException If the argument is not a valid container.
      */
