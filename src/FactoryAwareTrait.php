@@ -18,7 +18,7 @@ trait FactoryAwareTrait
      *
      * @since [*next-version*]
      *
-     * @var FactoryInterface
+     * @var FactoryInterface|null
      */
     protected $factory;
 
@@ -27,7 +27,7 @@ trait FactoryAwareTrait
      *
      * @since [*next-version*]
      *
-     * @return FactoryInterface The factory instance, if any.
+     * @return FactoryInterface|null The factory instance, if any.
      */
     protected function _getFactory()
     {
