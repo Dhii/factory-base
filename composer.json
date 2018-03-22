@@ -16,7 +16,7 @@
         "dhii/factory-interface": "0.1-alpha1 | 0.1-alpha2",
         "dhii/callback-abstract": "0.1-alpha2",
         "dhii/invocable-interface": "0.1-alpha1",
-        "dhii/invocable-base": "dev-task/initial-classes",
+        "dhii/invocable-base": "^0.1-alpha1",
         "dhii/data-container-base": "0.1-alpha2",
         "dhii/container-helper-base": "0.1-alpha5",
         "dhii/normalization-helper-base": "0.1-alpha1 | 0.1-alpha2",
@@ -38,16 +38,5 @@
     "scripts": {
         "test": "phpunit",
         "csfix": "php-cs-fixer fix -vvv"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "http://github.com/dhii/invocable-base"
-        }
-    ],
-    "config": {
-        "platform": {
-            "php": "5.4.0"
-        }
     }
 }
