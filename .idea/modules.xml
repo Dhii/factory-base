@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/bootstrap.iml" filepath="$PROJECT_DIR$/.idea/bootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/factory-base.iml" filepath="$PROJECT_DIR$/.idea/factory-base.iml" />
     </modules>
   </component>
 </project>
